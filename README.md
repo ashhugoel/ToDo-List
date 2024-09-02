@@ -18,7 +18,7 @@ Instructions on how to install and run this project.
 **Clone the repository:**
 
 ```sh
-git clone https://github.com/your-username/Task-Tracker.git](https://github.com/ashhugoel/ToDo-List.git
+git clone https://github.com/ashhugoel/ToDo-List.git
   ```
 
 **Navigate into the project directory**
