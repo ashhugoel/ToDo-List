@@ -1,0 +1,203 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+
+
+body {
+  background: #eee !important;
+  margin: 0px;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png") !important;
+}
+
+.App{
+  width: 100%;
+}
+
+
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px !important;
+  height: 150px;
+  margin: 16px;
+  float: left;
+  position: relative;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+.note p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Show up to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add an ellipsis if the text is too long */
+  line-height: 1.5em; /* Adjust based on your font size and desired line spacing */
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  background-color: transparent;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.note .due-date {
+  position: absolute; /* Set the due date to absolute positioning */
+  bottom: 10px; /* Distance from the bottom */
+  right: 10px; /* Distance from the right */
+  font-size: 0.9em; /* Optional: Adjust font size */
+  color: #555; /* Optional: Set text color */
+}
+
+.center{
+  left: 34%;
+}
+
+
+.custom-input {
+  position: absolute;
+  top: 8px;
+  left: 265px;
+  width: 480px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  padding: 10px; /* Space inside the input */
+  border-radius: 40px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Optional: style for focus state */
+.custom-input:focus {
+  border-color: #000000; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+.form-select:focus{
+  border: 1px solid #ccc !important; /* Reset to default border */
+  background-color: white !important; /* Reset to default background */
+  color: black !important; /* Reset to default text color */
+  outline: none !important; /* Ensure no outline is shown */
+  box-shadow: none  !important; /* Remove any focus box-shadow if any */
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  padding-bottom: 25px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  z-index: 100;
+}
+
+.note-button{
+  position: absolute;
+  top: 210px;
+  right: 7px;
+}
+
+.due-date span {
+
+  position: relative;
+  top: 2px; /* Adjust this value as needed to move it downward */
+}
+
+.favicon{
+  color: white;
+}
