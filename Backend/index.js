@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import Todo from './model.js'; // Make sure this points to your Todo model
+import Todo from './model.js'; 
 import { ObjectId } from 'mongodb';
 import cors from 'cors';
 
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://readwrite:aTaQt1SuobBVileV@api.oicxz.mongodb.net/TODOLIST');
+    await mongoose.connect('mongodb+srv://username:pass@api.oicxz.mongodb.net/TODOLIST'); //replace username and pass 
     console.log(`The database is connected with ${mongoose.connection.host}`);
 }
 
